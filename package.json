@@ -8,11 +8,12 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist -r https://github.com/fauzanamali/Tugas-React-pertama.git"  
+    "deploy": "gh-pages -d dist -r https://github.com/fauzanamali/Tugas-React-pertama.git"
   },
   "dependencies": {
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "use-immer": "^0.11.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
