@@ -2,8 +2,11 @@ import React from "react";
 import Layout from "./componenst/layout/layout";
 import AlertButton from "./componenst/button/AlertButton"; 
 import ImputNama from "./componenst/imputNama/ImputNama";
+// import StudentManager from "./manager/StudentManager";
+import StudentApp from "./componenst/Student/StudentApp.jsx";
 
-import StudentManager from "./manager/StudentManager";
+
+
 
 
 export default function App() {
@@ -13,9 +16,10 @@ export default function App() {
         text="Klik Saya"
         message="Ini pesan dari AlertButton"
       />
+      {/* <StudentManager /> */}
       
-      <StudentManager />
       <ImputNama />
+      `     <StudentApp />`
     </Layout>
   );
 }

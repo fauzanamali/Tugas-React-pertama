@@ -1,0 +1,94 @@
+body {
+  background:white;
+  color: #e5e7eb;
+ 
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  letter-spacing: 0.5px;
+}
+
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+input {
+  padding: 10px 12px;
+  background:;
+  border: 1px solid orange;
+  color: black;
+  border-radius: 6px;
+}
+
+input:focus {
+  outline: none;
+  border-color: orange;
+}
+
+
+button {
+  padding: 10px 14px;
+  background: orange;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: gray;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: gray;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+thead {
+  background: orange;
+}
+
+th, td {
+  padding: 12px 14px;
+  text-align: left;
+}
+
+th {
+  color: white;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+tbody tr {
+  border-top: 1px solid white;
+  transition: background 0.2s;
+}
+
+tbody tr:hover {
+  background: #020617;
+}
+
+/* ACTION BUTTONS */
+td button {
+  margin-right: 6px;
+  padding: 6px 10px;
+  font-size: 13px;
+}
+
+td button:last-child {
+  background: #ef4444;
+}
+
+td button:last-child:hover {
+  background: #dc2626;
+}
